@@ -1,0 +1,599 @@
+@font-face {
+    font-family: poppins;
+    src: url(font/Poppins-Medium.ttf);
+  }
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FEF7F8;
+    
+  }
+
+h1{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    color: #000000DE;
+
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    color: #000000DE;
+    
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 25.6px;
+    color: #00000099;
+}
+
+a{
+    color: #000;
+}
+
+a:hover{
+    color: #D4874C;
+}
+
+/* navigation */
+
+.navbar{
+    padding: .8rem;
+    background-color: #fff;
+  }
+
+.navbar-nav li{
+    padding-right: 20px;
+    margin-right: 42px;
+  }
+
+.nav-link{
+    font-size: 1.1em !important;
+  }
+
+
+
+.nav-item.active{
+    font-weight: 600;
+    border-bottom: 2px solid #D4874C;
+    border-image: linear-gradient(to right, #D4874C 0%, #D4874C 40%, transparent 20%) 1 / 1 / 0 stretch;
+}
+
+/* showcase */
+
+.container.showcase{
+    margin-top: 5%;
+}
+
+.container.showcase .row .image-1{
+    width: 100%;
+}
+
+.container.showcase .title{
+    position: relative;
+}
+.container.showcase .title .h1{
+    width: 81%;
+}
+
+.container.showcase .title-tag{
+    color: #d4874c;
+    letter-spacing: 0.4em;
+    margin-left: 130px;
+}
+
+.container.showcase .title-hr{
+    width: 103px;
+    background: #d4874c;
+    position: absolute;
+    bottom: -5px;
+}
+/* carousel */
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+
+.container .carousel .carousel-inner .first-slide-carousel-img{
+    position: relative;
+}
+
+.container .carousel .carousel-inner .first-slide-overlay{
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    opacity:1;
+    min-height: 473px;
+
+}
+
+.carousel-inner .carousel-item img{
+    width: 100%;
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 40%;
+}
+
+.carousel-caption h2{
+    color: #fff;
+}
+
+.carousel-caption .button{
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+.carousel-caption .button .form-group .form-control{
+    width: 100%;
+    border-radius: 0;
+    padding: 16px;
+    margin-right: 30px;
+}
+.carousel-caption .button .btn{
+    width: 100%;
+    border-radius: 0;
+    padding: 16px;
+    background-color: #d4874c;
+    color: #ffffff;
+    margin-left: 30px;
+}
+
+
+.carousel-caption .button .btn img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.carousel-caption .scroll{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: -100px;
+}
+
+.carousel-caption .scroll p{
+    color: #fff;
+}
+
+.carousel-caption .scroll .scroll-img{
+    width: 32px;
+    color: #FFFFFFDE;
+    margin-left: 16px;
+}
+
+/* showcase-1 */
+
+.container.showcase-1{
+    margin-top: 5%;
+}
+
+.container.showcase-1 .row img{
+    width: 100%;
+}
+.container.showcase-1{
+    background-image: url("img/showcase-2.png");
+    background-color: #F1CEB4;
+    padding-top: 20px;
+}
+
+.container.showcase-1 .title{
+    position: relative;
+}
+
+.showcase-1 .title-hr{
+    width: 69px;
+    height: 4px;
+    background: #d4874c;
+    position: absolute;
+    bottom: 15px;
+}
+
+.showcase-1 .title-tag{
+    margin-left: 100px;
+}
+
+/* showcase-2 */
+
+.showcase-2{
+    margin-top: 5%;
+}
+.container.showcase-2 .row .card{
+    background: #fff;
+}
+
+.showcase-2 .container .title{
+    position: relative;
+}
+
+.showcase-2 .title-tag{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 80px;
+    color: #D4874C;
+    letter-spacing: 0.4em;
+}
+
+.showcase-2 .title-hr{
+    width: 69px;
+    height: 3px;
+    background: #d4874c;
+    position: absolute;
+    top: -5px;
+}
+
+.container.showcase-2 .row img{
+    width: 10%;
+    margin-bottom: 10px;
+}
+
+.container.showcase-2 .row .card-body{
+    background-color: #fff;
+}
+
+.container.showcase-2 .col-xs-12.col-sm-12.col-md-7.col-lg-7.col-xl-7 .first-row,
+.container.showcase-2 .col-xs-12.col-sm-12.col-md-7.col-lg-7.col-xl-7 .second-row{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.container.showcase-2 .col-xs-12.col-sm-12.col-md-7.col-lg-7.col-xl-7 .first-row .card-body,
+.container.showcase-2 .col-xs-12.col-sm-12.col-md-7.col-lg-7.col-xl-7 .second-row .card-body{
+    margin-right: 20px;
+}
+
+.container.showcase-3{
+    background-color: #F0CEB4;
+    text-align: center;
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+
+.container.showcase-3 h1{
+    padding-top: 5%;
+}
+
+.container.showcase-3 p{
+    padding-bottom: 60px;
+
+}
+
+.container.showcase-4{
+    margin-top: 5%;
+}
+
+
+.container.showcase-4 {
+    background-image: url("img\coffee-beans.png");
+    background-repeat:no-repeat;
+}
+
+.container.showcase-4 .ourTeam{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 40px;
+}
+
+.container.showcase-4 .row .card{
+    background-color: #fff;
+    border: none;
+    padding-bottom: 30px;
+    width: 90%;
+}
+
+.container.showcase-4 .row .card img{
+    padding: 20px;
+}
+
+.container.showcase-5{
+    margin-top: 5%;
+}
+
+.container.showcase-5 .lg-banner{
+    width: 100%;
+}
+
+.container.showcase-5 .energetic{
+    display: flex;
+    color: #000;
+    background: #ffffff;
+    width: 300px;
+    padding: 10px;
+    box-shadow: 0px 2px 20px rgba(133, 43, 61, 0.2);
+    border-radius: 8px;    
+    margin-bottom: 24px;
+}
+.container.showcase-5 .energetic-btn{
+    margin-left: 24px;
+}
+
+.container.showcase-5 .sm-banner{
+    width: 70%;
+    height: 187px;
+    background-color: #F1D1B8;
+    margin-top: 48px;
+    box-shadow: 0px 2px 20px rgba(133, 43, 61, 0.2);
+}
+.container.showcase-5 .sm-banner .sm-banner-1{
+    display: flex;
+    padding: 20px;
+}
+
+.container.showcase-5 .sm-banner .review{
+    padding: 0px 0 15px 10px;
+}
+
+.container.showcase-5 .sm-banner .sm-banner-img{
+    border-radius: 50%;
+    margin: 10px;
+    margin-right: 22px;
+}
+
+.container.showcase-5 input{
+    width: 70%;
+    height: 58px;
+    padding-left: 16px;
+    border: none;
+    box-shadow: 0px 2px 20px rgba(133, 43, 61, 0.2);
+}
+
+.container.showcase-5 .review-btn{
+    position: relative;
+}
+.container.showcase-5 .btn{
+    background-color: #fff;
+    position: absolute;
+    right: 200px;
+    top: 10px;
+    color: #D4874C;
+}
+
+.container.showcase-5 .toy{
+    display: flex;
+    margin-top: -100px;
+
+}
+
+.container.showcase-5 .row .toy .toy-face{
+    border-radius: 50%;
+    box-shadow: 0px 2px 20px rgba(133, 43, 61, 0.2);
+
+}
+
+.container.showcase-5 .toy .toy-face-5{
+    z-index: 9999;
+}
+
+.container.showcase-5 .toy .toy-face-4{
+    z-index: 8888;
+    margin-left: -30px;
+}
+
+.container.showcase-5 .toy .toy-face-3{
+    z-index: 7777;
+    margin-left: -30px;
+}
+
+.container.showcase-5 .toy .toy-face-2{
+    z-index: 6666;
+    margin-left: -30px;
+}
+.container.showcase-5 .toy .toy-face-1{
+    z-index: 5555;
+    margin-left: -30px;
+}
+
+.container.showcase-6{
+    margin-top: 5%;
+    background-color: #F0CEB4;
+}
+
+.container.showcase-6 .lady-img{
+    position: relative;
+    min-height: 369px;
+}
+
+.lady-img-1 {
+    position: absolute;
+    top: -53px;
+}
+
+.container.showcase-6 .discount h2{
+    margin-top: 5%;
+    margin-bottom: 60px;
+}
+
+.button-1{
+    display: flex;
+}
+
+.button-1 .btn{
+    width: 100%;
+    border-radius: 0;
+    padding: 15px;
+    background-color: #d4874c;
+    color: #ffffff;
+    margin-left: 30px;
+}
+
+.button-1 .form-control{
+    width: 100%;
+    border-radius: 0;
+    padding: 16px;
+    
+}
+
+
+.container.showcase-7{
+    margin-top: 5%;
+}
+
+.container.showcase-7 .title{
+    position: relative;}
+    
+.container.showcase-7 .title-tag{
+    color: #d4874c;
+    margin-left: 130px;
+}
+.container.showcase-7 .title-hr{
+    width: 103px;
+    background: #d4874c;
+    position: absolute;
+    bottom: -5px;
+}
+.container.showcase-7 .download-text span{
+    color: #D4874C;
+}
+
+.container.showcase-7 .app-btn{
+    display: flex;
+    margin-top: 65px;
+    margin-bottom: 228px;
+
+}
+.container.showcase-7 .app-btn .apple img{
+   width: 100%;
+}
+.container.showcase-7 .app-btn .google img{
+    width: 100%;
+ }
+
+.container.showcase-7 .app-btn .apple{
+    padding-right: 25px;
+}
+
+.container.showcase-7 .download .download-img{
+    display: flex;
+}
+.container.showcase-7 .download .download-img .img-fluid.back{
+    width: 100%;
+
+}
+
+.container.showcase-7 .download .download-img .img-fluid.front{
+    margin-right:100px;
+    width: 60%;
+
+}
+
+.container.showcase-8{
+    background-color: #F0CEB4;
+}
+
+.container.showcase-8 .row{
+    margin: auto 0;
+}
+
+.container.showcase-8 .contact h1{
+    border-bottom: 6px solid #550E1C;
+    border-image: linear-gradient(to right, #550E1C 0%, #550E1C 40%, transparent 20%) 1 / 1 / 0 stretch;
+    margin-top: 56px;
+    margin-bottom: 55px;
+}
+ 
+.container.showcase-8 .contact .contact-list{
+    display: flex;
+}
+
+.container.showcase-8 .contact .contact-list .contact-icon{
+    margin-right: 24px;
+}
+
+.container.showcase-8 .contact .contact-list p{
+    color: #000;
+}
+
+.container.showcase-8 .contact .form-title{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    margin-top: 109px;
+    margin-bottom: 24px;
+}
+.container.showcase-8 form button.btn.btn-primary{
+    background: #550E1C;
+    border: none;
+    margin-bottom: 10%;
+}
+
+.container.showcase-9 {
+    background-color: #550E1C;
+}
+
+.container.showcase-9 .footer{
+    color: #FFFFFFDE;
+
+}
+.container.showcase-9 .footer .footer-logo{
+    padding-top: 42px;    
+}
+
+.container.showcase-9  .contact .contact-list{
+    display: flex;
+    padding-top: 32px;
+}
+
+.container.showcase-9  .footer .contact .contact-lists .contact-list p,
+.container.showcase-9  .footer-copyright p, 
+.container.showcase-9  .footer .social p{
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 18px;
+   color: #fff;
+}
+
+.container.showcase-9  .footer .social{
+    margin-top: 30px;
+}
+
+.container.showcase-9  .contact .contact-list .contact-icon{
+    padding-right: 24px;
+}
+
+.container.showcase-9  .footer .menu-list ul{
+    list-style: none;
+    margin-top: 32px;
+}
+
+.container.showcase-9  .footer .menu-list li {
+    padding-bottom: 24PX;
+}
+
+.container.showcase-9  .footer .menu-list li a{
+    color: #FFFFFFDE;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.container.showcase-9  .footer .social h2{
+    margin-top: 1px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.container.showcase-9  .footer .social .social-icon{
+    display: flex; 
+    justify-content: space-between;
+    margin-top: 24px;
+    width: 120px;
+    margin-bottom: 28px;
+
+}
+
+
