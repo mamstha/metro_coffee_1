@@ -1,4 +1,5 @@
-    <div class="container showcase-9">
+    <div class=" showcase-9">
+        <div class="container">
         <div class="row">
             <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 footer">
                 <img src="img/footer-logo.png" alt="" class="footer-logo">
@@ -83,10 +84,9 @@
         </div>
 
         <div class="row">
-            <div class="footer-copyright">
-                <p class="text-center">
-                    &copy; 2021 copyright metrocoffee. All rights reserved.
-                </p>
+            <div class="footer-copyright text-center w-100">
+            &copy; 2021 copyright metrocoffee. All rights reserved.
             </div>
         </div>   
+        </div>
     </div>

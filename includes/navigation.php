@@ -9,16 +9,16 @@
 		 <div class="collapse navbar-collapse" id="navbarResponsive">
 			 <ul class="navbar-nav ml-auto">
 				 <li class="nav-item active">
-					 <a href="#" class="nav-link">Home</a>
+					 <a href="#index.pgp" class="nav-link">Home</a>
 				</li>
 				<li class="nav-item ">
-					<a href="#" class="nav-link">Services</a>
+					<a href="#services" class="nav-link">Services</a>
 				</li>
 				<li class="nav-item ">
-					<a href="#" class="nav-link">Our Story</a>
+					<a href="#ourstory" class="nav-link">Our Story</a>
 				</li>
 				<li class="nav-item ">
-					<a href="#" class="nav-link">Contact Us</a>
+					<a href="#contactus" class="nav-link">Contact Us</a>
 				</li>
 				
 			 </ul>

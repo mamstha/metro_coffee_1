@@ -1,4 +1,27 @@
+@media (max-width:360px){
+    .container.showcase-2 .col-xs-12.col-sm-12.col-md-7.col-lg-7.col-xl-7 .first-row,
+.container.showcase-2 .col-xs-12.col-sm-12.col-md-7.col-lg-7.col-xl-7 .second-row{
+    display: block;
+    margin-bottom: 30px;
+}
+.carousel-caption .scroll{
+    display: none;
+ }
+
+ .carousel-indicators {
+    display: none;
+    
+}
+
+.container .carousel .carousel-inner .first-slide-carousel-img{
+    width: 500px;
+    height: 200px;
+}
+}
+
+
 @media (max-width:767px){
+
 
     h1{
         font-size: 32px;
@@ -11,7 +34,7 @@
 
     h2{
         font-size: 24px;
-        line-height: 40px;  
+        line-height: 24px;  
         font-weight: 600;     
     }
 
@@ -30,20 +53,9 @@
         display: none;
     }
     .carousel-caption .scroll{
-        right: -60px;
+       display: none;
     }
     
-    .carousel-caption .scroll p,
-    .carousel-caption .scroll h6 {
-        font-size: 10px;
-        color: #fff;
-    }
-    
-    .carousel-caption .scroll .scroll-img{
-        width: 10px;
-        color: #FFFFFFDE;
-        margin-left: 16px;
-    }
 
     .container.showcase-1 .row img{
         display: none;
@@ -90,4 +102,21 @@
     .container.showcase-8{
         margin-top: -15%;
     }
+
+    .showcase-9  .footer .contact .contact-lists .contact-list p,
+    .showcase-9  .footer-copyright p, 
+    .showcase-9  .footer .social p{
+   font-size: 16px;
+}
+
+.showcase-9  .footer .menu-list li a{
+    font-size: 16px;
+}
+.footer-copyright{
+    font-size: 12px;
+}
+.showcase-9  .footer .menu-list ul{
+    margin-left: -36px;
+}
+
 }

@@ -1,4 +1,5 @@
-<div class="container showcase-8" id="contactus">
+<div class=" showcase-8" id="contactus">
+    <div class="container">
     <div class="row">    
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 contact">
             <div class="contactUs-text">
@@ -62,5 +63,6 @@
         </div>
 
 
+    </div>
     </div>
 </div>

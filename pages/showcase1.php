@@ -1,6 +1,7 @@
-<div class="container showcase-1 " id="ourstory">
-    <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+<div class=" showcase-1 " id="ourstory">
+    <div class="container">
+    <div class="row ">
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
           <img src="img/Image.png" alt="">
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
@@ -15,5 +16,6 @@
                 <p>
                 In addition, we also believe in the power of freshness and quality ingredients. And being able to serve the best quality, fresh food to our customers is our topmost priority. Thus, Metro Coffee serves you delicious all-day breakfast sandwiches, wraps, and rolls on the go, made fresh with the finest ingredients, every day.  </p>    
         </div>
+    </div>
     </div>
 </div>

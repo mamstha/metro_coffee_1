@@ -1,4 +1,5 @@
-<div class="container showcase-6">
+<div class=" showcase-6">
+    <div class="container">
     <div class="row">
         <div class="col-4 lady-img">
             <div class="lady-img-1">
@@ -20,5 +21,6 @@
                     </div>   
                 </div>
             </div>
+    </div>
     </div>
 </div>
