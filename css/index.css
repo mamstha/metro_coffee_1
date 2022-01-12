@@ -162,12 +162,20 @@ a:hover{
     bottom: 0;
     right: -100px;
     text-align: left;
+   
 }
 
 .carousel-caption .scroll p{
     color: #fff;
     font-size: 10px;
     font-weight: 300;
+    line-height: 14px;
+    padding-top: 10px;
+    opacity: 0.68;
+}
+
+.carousel-caption .scroll .bold{
+    font-size: 12px;
 }
 
 .carousel-caption .scroll .scroll-img{
@@ -629,6 +637,7 @@ a:hover{
 
 .footer-copyright{
     color: #fff;
+    font-size: 9px;
 }
 
 

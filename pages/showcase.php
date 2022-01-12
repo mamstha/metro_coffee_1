@@ -61,8 +61,8 @@
                         </div>
                         <div class="scroll">
                             <div>
-                                <h6>Scroll Down<h6>
-                                <p> To Discover More</p>
+                                <p> <span class="bold">Scroll Down</span></b> <br> To Discover More<p>
+                                
                             </div>
                            <div>
                             <img src="img/scroll-down 1.png" alt="" class="scroll-img">
