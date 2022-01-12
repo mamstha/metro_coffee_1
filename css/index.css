@@ -161,10 +161,13 @@ a:hover{
     position: absolute;
     bottom: 0;
     right: -100px;
+    text-align: left;
 }
 
 .carousel-caption .scroll p{
     color: #fff;
+    font-size: 10px;
+    font-weight: 300;
 }
 
 .carousel-caption .scroll .scroll-img{
@@ -180,7 +183,7 @@ a:hover{
 }
 
 .showcase-1 .row img{
-    width: 100%;
+    width: 80%;
 }
 .showcase-1{
     background-image: url("../img/showcase-2.png");
@@ -243,11 +246,13 @@ a:hover{
 
 .container.showcase-2 .row .card-body{
     background-color: #fff;
+    border: 3px solid #fff;
 }
 
 .container.showcase-2 .row .card-body:hover{
     box-shadow: 0px 2px 20px rgba(20, 12, 14, 0.08);
     border-bottom: 3px  solid #D4874C;
+    transition:  1s linear;
 }
 
 .container.showcase-2 .col-xs-12.col-sm-12.col-md-7.col-lg-7.col-xl-7 .first-row,
@@ -265,11 +270,12 @@ a:hover{
     background-color: #F0CEB4;
     text-align: center;
     margin-top: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
 }
 
 .showcase-3 h1{
     padding-top: 5%;
+    margin-bottom: 16px;
 }
 
 .showcase-3 p{
@@ -307,7 +313,14 @@ a:hover{
 }
 
 .container.showcase-4 .row .card img{
-    padding: 20px;
+    padding: 16px;
+}
+
+.container.showcase-4 .row .card img:hover{
+    padding: 16px;
+    box-shadow: 0px 2px 20px rgba(20, 12, 14, 0.08);
+
+
 }
 
 .container.showcase-5{
@@ -315,7 +328,7 @@ a:hover{
 }
 
 .container.showcase-5 .lg-banner{
-    width: 100%;
+    width: 80%;
 }
 
 .container.showcase-5 .energetic{
@@ -375,7 +388,7 @@ a:hover{
 
 .container.showcase-5 .toy{
     display: flex;
-    margin-top: -100px;
+    margin-top: 10px;
 
 }
 
@@ -490,6 +503,7 @@ a:hover{
 
 .container.showcase-7 .download .download-img{
     display: flex;
+    margin-bottom: 100px;
 }
 .container.showcase-7 .download .download-img .img-fluid.back{
     width: 100%;
@@ -514,6 +528,11 @@ a:hover{
     border-image: linear-gradient(to right, #550E1C 0%, #550E1C 40%, transparent 20%) 1 / 1 / 0 stretch;
     margin-top: 56px;
     margin-bottom: 55px;
+}
+
+.showcase-8 .contactUs-text .lead{
+    color: #000;
+    margin-bottom: 56px;
 }
  
 .showcase-8 .contact .contact-list{

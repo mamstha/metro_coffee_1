@@ -7,7 +7,7 @@
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6  energetic-group">
             <div class="energetic">
                 <div class="energetic-text">
-                    Make You More Energetic
+                    Make you more <b><u>energetic</u></b>
                 </div>
                 <div class="energetic-btn">
                     <img src="img/slide.png" alt="">
