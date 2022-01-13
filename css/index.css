@@ -109,16 +109,19 @@ a:hover{
     background: #000;
 }
 
-#carouselExampleIndicators .carousel-inner::before{
+/* #carouselExampleIndicators .carousel-inner::after{
     position: absolute;
     content: '';
+    display: block;
     background: rgba(0, 0, 0, 0.45);
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
     z-index: 1;
-}
+} */
+
+
 
 #carouselExampleIndicators .carousel-inner .carousel-item{
     position: relative;
