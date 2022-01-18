@@ -183,9 +183,9 @@ a:hover{
     display: flex;
     margin-top: 25px;
     justify-content: center;
-    position: fixed;
+    position: absolute;
     bottom: 0;
-    top: 240px;
+    top: 300px;
     right: 0;
     left: 0;
 }
