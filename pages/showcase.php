@@ -31,26 +31,39 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <h2>Serving You Ethically Sourced,<br> Freshly Brewed Coffee, Every Day</h2>
-                
+        <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img class="d-block w-100" src="img/background-coffee.png" alt="First slide">
+                <div class="overlay"></div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Serving You Ethically Sourced, Freshly Brewed Coffee, Every Day</h2>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-100" src="img/metro_coffee_pic_2.png" alt="Second slide">
+                <div class="overlay"></div>
+
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>If Happiness Smells Like Freshly Baked Goodie, We Sell Happiness</h2>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-100" src="img/metro_coffee_Pic_3.png" alt="Third slide">
+                <div class="overlay"></div>
+
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Join Our Exclusive Benefit Club And Grab The Best Deals & Offer Today</h2>
+                </div>
+                </div>
             </div>
-            <div class="carousel-item">
-                <h2>True love these days can be found in a lot of creative places</h2>
-            </div>
-            <div class="carousel-item">
-                <h2>Whether you enjoy a cold brew, a latte, or a double shot of espresso</h2>
-            </div>
-            <div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>           
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>    
         </div>
 
         <div class="button text-center">
@@ -71,9 +84,9 @@
                 <p> <span class="bold">Scroll Down</span></b> <br> To Discover More<p>
                 
             </div>
-        <div>
-            <img src="img/scroll-down 1.png" alt="" class="scroll-img">
-        </div>
+            <div>
+                <img src="img/scroll-down 1.png" alt="" class="scroll-img">
+            </div>
         </div>
         
     </div>
