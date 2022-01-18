@@ -130,40 +130,11 @@ a:hover{
     z-index: 99999;
   }
 
-
- #carouselExampleIndicators .carousel-inner .carousel-item{
-    position: relative;
-    height: 100%;
-    width: 100%;
-    background: url('../img/background-coffee.png');
-    background-size: 100% 100%;
-    background-position: center;
-    object-fit: cover;
-}
-
-.carousel-indicators li {
+  .carousel-indicators li {
     width: 10px;
     height: 10px;
     border-radius: 100%;
   }
-
-#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2){
-    position: relative;
-    height: 100%;
-    width: 100%;
-    background: url('../img/metro_coffee_pic_2.png');
-    background-size: 100% 100%;
-    background-position: center;
-}
-
-#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3){
-    position: relative;
-    height: 100%;
-    width: 100%;
-    background: url('../img/metro_coffee_Pic_3.png');
-    background-size: 100% 100%;
-    background-position: center;
-}
 
 
 #carouselExampleIndicators .carousel-inner .carousel-item h2{
