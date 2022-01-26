@@ -17,6 +17,7 @@
 <body>
 	<?php include_once('includes/navigation.php'); ?>
 	<?php include_once('pages/showcase.php'); ?>
+  <?php include_once('pages/carousel.php'); ?>
     <?php include_once('pages/showcase1.php'); ?>
     <?php include_once('pages/showcase2.php'); ?>
     <?php include_once('pages/showcase3.php'); ?>
@@ -36,7 +37,7 @@
 
     <script>
       $(".carousel").carousel({
-        interval: 2000,
+        interval: 4000,
       });
     </script>
 </body>
