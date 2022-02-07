@@ -111,7 +111,6 @@ a:hover{
 }
 
 #carouselExampleIndicators .carousel-inner{
-    position: relative;
     height: 100%;
     width: 100%;
 }
@@ -156,7 +155,7 @@ a:hover{
     justify-content: center;
     position: absolute;
     bottom: 0;
-    top: 300px;
+    top: 800px;
     right: 0;
     left: 0;
 }
@@ -182,13 +181,13 @@ a:hover{
     margin-right: 10px;
 }
 
-.container .scroll{
+.container .scroll {
     display: flex;
     position: absolute;
     bottom: 0;
-    right: 60px;
+    right: 240px;
     text-align: left;
-   
+    top: 888px;
 }
 
 .container .scroll p{
