@@ -17,11 +17,13 @@
     width: 500px;
     height: 200px;
 }
+.container .button{
+  display: none;
+}
 }
 
 
-@media (max-width:767px){
-
+    @media only screen and (min-width: 362px) and (max-width: 768px){
 
     h1{
         font-size: 32px;
@@ -55,6 +57,10 @@
     .carousel-caption .scroll{
        display: none;
     }
+
+    .container .button{
+        display: none;
+      }
     
 
     .container.showcase-1 .row img{
@@ -119,4 +125,22 @@
     margin-left: -36px;
 }
 
+}
+
+@media only screen and (min-width: 769px)and (max-width: 1024px) {
+    .container .button {
+       
+        top: 600px;
+     
+    }
+
+    .container .scroll {
+        display: none;
+    }
+
+    .carousel-inner .carousel-item h2 {
+       
+        font-size: 24px;
+        
+    }
 }
