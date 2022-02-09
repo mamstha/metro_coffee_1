@@ -9,7 +9,7 @@
             <div class="carousel-item active">
             <img class="d-block w-100" src="img/background-coffee.png" alt="First slide">
             <div class="overlay"></div>
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-md-block">
                 <h2>Serving You Ethically Sourced, Freshly Brewed Coffee, Every Day</h2>
             </div>
             </div>
@@ -17,7 +17,7 @@
             <img class="d-block w-100" src="img/metro_coffee_pic_2.png" alt="Second slide">
             <div class="overlay"></div>
 
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-md-block">
                 <h2>If Happiness Smells Like Freshly Baked Goodie, We Sell Happiness</h2>
             </div>
             </div>
@@ -25,7 +25,7 @@
             <img class="d-block w-100" src="img/metro_coffee_Pic_3.png" alt="Third slide">
             <div class="overlay"></div>
 
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-md-block">
                 <h2>Join Our Exclusive Benefit Club And Grab The Best Deals & Offer Today</h2>
             </div>
             </div>

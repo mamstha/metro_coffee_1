@@ -1,15 +1,23 @@
-@media (max-width:360px){
+@media (max-width:366px){
     .container.showcase-2 .col-xs-12.col-sm-12.col-md-7.col-lg-7.col-xl-7 .first-row,
 .container.showcase-2 .col-xs-12.col-sm-12.col-md-7.col-lg-7.col-xl-7 .second-row{
     display: block;
     margin-bottom: 30px;
 }
-.carousel-caption .scroll{
+
+
+ .container .scroll {
     display: none;
- }
+}
 
  .carousel-indicators {
     display: none;
+    
+}
+
+.carousel-inner .carousel-item h2 {
+       
+    font-size: 18px;
     
 }
 
@@ -17,10 +25,20 @@
     width: 500px;
     height: 200px;
 }
+
+#carouselExampleIndicators .carousel-inner .carousel-item h2{
+    font-size: 12px;
+    line-height: 18px;
+    bottom: auto;
+} 
 .container .button{
   display: none;
 }
+.container.showcase .row .image-1{
+    display: none;
 }
+}
+
 
 
     @media only screen and (min-width: 362px) and (max-width: 768px){
