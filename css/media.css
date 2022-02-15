@@ -102,9 +102,10 @@
         top: 10px;
     }
 
-    .container.showcase-5 .toy-group{
-        display: none;   
-    }
+     .container.showcase-5 .toy-group{
+        margin-top: 100px;
+        margin-bottom: -100px;        
+    } 
 
     .lady-img-1 img{
     width: 100%;
