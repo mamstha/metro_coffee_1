@@ -4,6 +4,7 @@
 	<div class="container">
 		 <a href="#" class="nav-brand"><img src="img/metro coffee logo.png" alt="logo" class="logo"></a>
 		 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			 
 			<span class="navbar-toggler-icon"></span>
 		 </button>
 		 <div class="collapse navbar-collapse" id="navbarResponsive">

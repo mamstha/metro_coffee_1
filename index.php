@@ -15,9 +15,9 @@
     <title>Metro Coffee</title>
 </head>
 <body>
-	<?php include_once('includes/navigation.php'); ?>
-	<?php include_once('pages/showcase.php'); ?>
-  <?php include_once('pages/carousel.php'); ?>
+    <?php include_once('includes/navigation.php'); ?>
+    <?php include_once('pages/showcase.php'); ?>
+    <?php include_once('pages/carousel.php'); ?>
     <?php include_once('pages/showcase1.php'); ?>
     <?php include_once('pages/showcase2.php'); ?>
     <?php include_once('pages/showcase3.php'); ?>
@@ -39,6 +39,13 @@
       $(".carousel").carousel({
         interval: 4000,
       });
+
+      const navLinks = document.querySelectorAll('.nav-item')
+      const menuToggle = document.getElementById('navbarResponsive')
+      const bsCollapse = new bootstrap.Collapse(menuToggle, {toggle:false})
+      navLinks.forEach((l) => {
+      l.addEventListener('click', () => { bsCollapse.toggle() })
+})
     </script>
 </body>
 </html>

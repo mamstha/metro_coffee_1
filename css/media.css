@@ -1,4 +1,4 @@
-@media (max-width:366px){
+@media (max-width:360px){
     .container.showcase-2 .col-xs-12.col-sm-12.col-md-7.col-lg-7.col-xl-7 .first-row,
 .container.showcase-2 .col-xs-12.col-sm-12.col-md-7.col-lg-7.col-xl-7 .second-row{
     display: block;
@@ -37,11 +37,40 @@
 .container.showcase .row .image-1{
     display: none;
 }
+.showcase-6 .container .row{
+    margin-left: -53px;
+}
+
+.showcase-6 .container .row .lady-img-1{
+    display: none;
+}
+.showcase-6 .container .row .button-1{
+    display: inline;
+}
+
+.container.showcase-5 .toy {
+    display: flex;
+    margin-top: 15px;
+}
+
+.container.showcase-5 .btn {
+    right: 100px;
+}
+
+.container.showcase-5 .sm-banner .review {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.button-1 .btn {
+    
+ margin-left: 0px;
+}
 }
 
 
 
-    @media only screen and (min-width: 362px) and (max-width: 768px){
+    @media only screen and (min-width: 367px) and (max-width: 768px){
 
     h1{
         font-size: 32px;
@@ -69,28 +98,40 @@
         top: 20px;
     }
 
+    #carouselExampleIndicators .carousel-inner .carousel-item h2 {
+        
+        bottom: 40px;
+    }
+
     .carousel-caption .button {
         display: none;
     }
-    .carousel-caption .scroll{
+
+    .container .scroll{
        display: none;
     }
 
     .container .button{
         display: none;
       }
-    
 
-    .container.showcase-1 .row img{
-        display: none;
+      .showcase-1 .row img {
+        width: 80%;
+        margin-left: 30px;
     }
 
+    .container.showcase-2 .col-xs-12.col-sm-12.col-md-7.col-lg-7.col-xl-7 .first-row, .container.showcase-2 .col-xs-12.col-sm-12.col-md-7.col-lg-7.col-xl-7 .second-row{
+        display: inline;
+    }
     .container.showcase-5 .energetic{
         width: 100%;
     }
 
     .container.showcase-5 .sm-banner {
         width: 100%;     
+    }
+    .container.showcase-5 .lg-banner {
+        margin-left: 23px;
     }
 
     .container.showcase-5 input{
@@ -108,7 +149,7 @@
     } 
 
     .lady-img-1 img{
-    width: 100%;
+    width: 86%;
     }
 
     .lady-img-1 {
@@ -131,11 +172,17 @@
     .showcase-9  .footer .contact .contact-lists .contact-list p,
     .showcase-9  .footer-copyright p, 
     .showcase-9  .footer .social p{
-   font-size: 16px;
+   font-size: 12px;
+   line-height: 18px;
+}
+
+.showcase-9 .footer .menu-list li a {
+    font-size: 12px;
+    line-height: 18px;
 }
 
 .showcase-9  .footer .menu-list li a{
-    font-size: 16px;
+    font-size: 12px;
 }
 .footer-copyright{
     font-size: 12px;
@@ -149,7 +196,7 @@
 @media only screen and (min-width: 769px)and (max-width: 1024px) {
     .container .button {
        
-        top: 600px;
+        top: 725px;
      
     }
 
@@ -161,5 +208,35 @@
        
         font-size: 24px;
         
+    }
+
+    #carouselExampleIndicators .carousel-inner .carousel-item h2 {
+        
+        bottom: 90px;
+    }
+
+    .container .button {
+        top: 750px;
+    }
+
+    .lady-img-1 {
+        right: 0px;
+    }
+
+    .container.showcase-5 .energetic-group h1{
+        font-size: 18px;
+    }
+
+    .container.showcase-5 .sm-banner .review {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .container.showcase-5 .toy {
+        display: flex;
+        margin-top: 5px;
+    }
+
+    .container.showcase-5 .btn {
+        right: 150px;
     }
 }
