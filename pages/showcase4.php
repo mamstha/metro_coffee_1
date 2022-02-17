@@ -9,7 +9,7 @@
       <div class="row ">
           <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
             <div class="card">
-                <img src="img/kenny.png" alt="" class="card-img-top">
+                <img src="img/Rectangle 3.svg" alt="" class="card-img-top">
                 <div class="card-body">
                 <h4 class="card-title">
                 Kenny Smith
@@ -24,7 +24,7 @@
 
           <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
             <div class="card">
-                <img src="img/jenny.png" alt="" class="card-img-top">
+                <img src="img/jenny.svg" alt="" class="card-img-top">
                 <div class="card-body">
                 <h4 class="card-title">
                 Jenny Lawson
@@ -39,7 +39,7 @@
 
           <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
             <div class="card">
-                <img src="img/alex.png" alt="" class="card-img-top">
+                <img src="img/alex.svg" alt="" class="card-img-top">
                 <div class="card-body">
                 <h4 class="card-title">
                 Alex Turner

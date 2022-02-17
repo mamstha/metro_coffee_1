@@ -2,7 +2,7 @@
         <div class="container">
         <div class="row">
             <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 footer">
-                <img src="img/footer-logo.png" alt="" class="footer-logo">
+                <img src="img/Group 18.svg" alt="" class="footer-logo">
             </div>
 
             <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 footer ">
@@ -58,13 +58,13 @@
 
                 <div class="social-icon">
                     <div>
-                        <img src="img/instagram.png" alt="">
+                        <img src="img/instagram.svg" alt="">
                     </div>
                     <div>
-                        <img src="img/facebook.png" alt="">
+                        <img src="img/facebook.svg" alt="">
                     </div>
                     <div>
-                        <img src="img/twitter.png" alt="">
+                        <img src="img/twitter.svg" alt="">
                     </div>
                 </div>
 

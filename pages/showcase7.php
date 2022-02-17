@@ -16,11 +16,11 @@
 
 <div class="app-btn">
     <div class="apple">
-        <img src="img/appstore.png" alt="">
+        <img src="img/appstore.svg" alt="">
     </div>
 
     <div class="google">
-        <img src="img/googleplay1.png" alt="">
+        <img src="img/googleplay.svg" alt="">
     </div>
 </div>
 </div>

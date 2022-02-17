@@ -2,7 +2,7 @@
 
 <nav class="navbar navbar-expand-md navbar-light sticky-top">
 	<div class="container">
-		 <a href="#" class="nav-brand"><img src="img/metro coffee logo.png" alt="logo" class="logo"></a>
+		 <a href="#" class="nav-brand"><img src="img\metro coffee logo.svg" alt="logo" class="logo"></a>
 		 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 			 
 			<span class="navbar-toggler-icon"></span>
@@ -16,7 +16,7 @@
 					<a href="#services" class="nav-link">Services</a>
 				</li>
 				<li class="nav-item ">
-					<a href="#ourstory" class="nav-link">Our Story</a>
+					<a href="#ourstory" class="nav-link">Our Team</a>
 				</li>
 				<li class="nav-item ">
 					<a href="#contactus" class="nav-link">Contact Us</a>

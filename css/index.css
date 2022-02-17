@@ -147,6 +147,10 @@ a:hover{
     bottom: 130px;
 } 
 
+#carouselExampleIndicators .carousel-inner .carousel-caption{
+    z-index: 99999;
+}
+
 
 
 .container .button{
@@ -343,7 +347,7 @@ a:hover{
     width: 90%;
 }
 
-.container.showcase-4 .row .card-body:hover{
+.container.showcase-4 .row .card:hover{
     box-shadow: 0px 2px 20px rgba(20, 12, 14, 0.08);
 
 }
@@ -659,6 +663,7 @@ a:hover{
 .footer-copyright{
     color: #fff;
     font-size: 9px;
+    margin-bottom: 20px;
 }
 
 
