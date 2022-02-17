@@ -1,5 +1,3 @@
-<!-- Navigation -->
-
 <nav class="navbar navbar-expand-md navbar-light sticky-top">
 	<div class="container">
 		 <a href="#" class="nav-brand"><img src="img\metro coffee logo.svg" alt="logo" class="logo"></a>
